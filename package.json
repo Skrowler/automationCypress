@@ -1,0 +1,16 @@
+{
+  "name": "pasta-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:mobile": "npx cypress run --config viewportWidth=414,viewportHeight=896",
+    "cypress:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.9.1"
+  }
+}
